@@ -24,7 +24,7 @@ loadData()
     <h2 className="text-center">Dropdown showing some list from 1-10, 1-50 and 1-60.</h2>      
     <div className='p-3'>
     <select type="text" className="form-select form-select-sm p" name="starwars" value={id} onChange={(e) => setId(e.target.value)}>
-    <option selected >1</option>
+    <option selected >10</option>
     <option >50</option>
     <option >60</option>
     </select> 
